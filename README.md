@@ -1,6 +1,6 @@
 # **Maze Solver**
 
-## ** Project Overview**
+## Project Overview
 The **Maze Solver** is a C++ application that generates a random `n x n` maze and finds the optimal path from the start to the goal. The program utilizes efficient pathfinding algorithms and visually displays the maze using **SFML (Simple and Fast Multimedia Library)**.
 
 ## **🛠 Features**
