@@ -1,6 +1,8 @@
 #ifndef VISUALIZER_HPP
 #define VISUALIZER_HPP
 
-void runSFMLMode(int n);
+#include "maze.hpp"
 
-#endif
+void saveMazeImage(const Maze &maze, const std::string &filename);
+
+#endif // VISUALIZER_HPP

@@ -1,20 +1,23 @@
 #ifndef MAZE_HPP
 #define MAZE_HPP
 
-#include <bits/stdc++.h>
-using namespace std;
+#include <vector>
+#include <string>
+#include <iostream>
 
 class Maze {
 private:
     int size;
-    vector<vector<int>> grid;
+    std::vector<std::vector<int>> grid;
     void carvePassages(int x, int y);
 
 public:
     Maze(int n);
     void generate();
     void display() const;
-    vector<vector<int>> getGrid() const;
+    std::vector<std::vector<int>> getGrid() const;
+    std::vector<std::vector<int>>& getGridRef(); // 🔹 Added this function
+    void saveToFile(const std::string &filename) const;
 };
 
-#endif
+#endif // MAZE_HPP
