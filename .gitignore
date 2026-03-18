@@ -1,9 +1,23 @@
-*.exe
-*.o
-*.out
-/build/
-/bin/
-/obj/
-*.log
-*.png
-*.jpg
+# Compiled binary
+maze_solver
+maze_solver.exe
+
+# Runtime-generated files
+maze.txt
+solved_maze.txt
+search_steps.txt
+maze_animation.gif
+maze_solution.png
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
