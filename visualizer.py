@@ -34,7 +34,7 @@ solved_maze = load_maze("solved_maze.txt")
 draw_maze(maze, solved_maze, "maze_solution.png")
 
 # Show the generated image
-image = cv2.imread("solved_maze.png")  # Change filename as needed
+image = cv2.imread("maze_solution.png") 
 cv2.imshow("Maze Solution", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

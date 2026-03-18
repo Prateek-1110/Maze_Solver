@@ -69,7 +69,12 @@ void Maze::display() const {
     }
 }
 
-// Getter function to return the maze grid
+// Getter function to return the maze grid by reference (Mutable)
 std::vector<std::vector<int>>& Maze::getGridRef() {
+    return grid;
+}
+
+// NEW: Getter function to return the maze grid (Read-only, fixes the linker error)
+std::vector<std::vector<int>> Maze::getGrid() const {
     return grid;
 }
