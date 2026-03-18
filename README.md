@@ -12,7 +12,7 @@ The **Maze Solver** is a C++ application that generates a random `n x n` maze an
 
 ## **📂 Project Structure**
 ```
-MazeSolver/
+Maze_Solver/
 │-- src/
 │   ├── main.cpp
 │   ├── maze_generator.cpp
@@ -34,7 +34,7 @@ Ensure you have the following installed:
 ## **🚀 Installation & Usage**
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/MazeSolver.git
+git clone https://github.com/yourusername/Maze_Solver.git
 cd MazeSolver
 ```
 
@@ -71,6 +71,6 @@ This project is licensed under the **MIT License**.
 
 ## **📬 Contact**
 For any issues or improvements, feel free to reach out!
-- **GitHub Issues**: [Link to Issues](https://github.com/Prateek-1110/MazeSolver/issues)
+- **GitHub Issues**: [Link to Issues](https://github.com/Prateek-1110/Maze_Solver/issues)
 - **Email**: b23bb1033@iitj.ac.in
 
