@@ -3,6 +3,10 @@ import subprocess
 import os
 import time
 from gif_maker import generate_gif
+import subprocess, os
+
+if not os.path.isfile("./maze_solver"):
+    subprocess.run(["bash", "setup.sh"], check=True)
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
